@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Password generator</h1>
+
+        <div class="mytxt">
+            <input type="text" id="show" placeholder="P4$5W0rD!" disabled>
+            <i class="fa-regular fa-copy" id="mycopy"></i>
+        </div>
+
+        <div class="sub">
+
+            
+            
+                <div class="mychr">
+                    <h2>character length</h2>
+                    <h3 id="num">5</h3>
+                </div>
+                
+                <input type="range" min="5" max="15"  id="r1">
+                
+                <div class="check">
+                    <input type="checkbox" id="c1" checked>
+                    <label>include uppercase letters</label>
+                </div>
+                
+                <div class="check">
+                    <input type="checkbox" id="c2">
+                    <label>include lowercase letters</label>
+                </div>
+                
+            <div  class="check">
+                <input type="checkbox" id="c3">
+                <label>include number</label>
+            </div>
+            
+            <div  class="check">
+                <input type="checkbox" id="c4">
+                <label>include symbols</label>
+            </div>
+            
+            <button id="btn">generator </button>
+        
+        </div>
+    </div>
+    
+
+
+
+
+
+</body>
+</html>
